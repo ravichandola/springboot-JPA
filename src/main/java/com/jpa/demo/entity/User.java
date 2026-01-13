@@ -6,11 +6,11 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="jpa_users")
+@Table(name="my_basket_users")
 public class User {
 
     @Id
-    @Column(name="jpa_user_id")
+    @Column(name="my_basket_user")
     private int userId;
 
     private String userName;
